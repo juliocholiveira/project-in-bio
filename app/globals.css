@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-  --*: initial;
   --spacing: 4px;
   --font-body: Inter, sans-serif;
   --color-background-primary: #050505;
