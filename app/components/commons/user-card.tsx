@@ -7,8 +7,14 @@ export default function UserCard() {
   return (
     <div className="w-[348px] flex flex-col gap-5 items-center p-5 border border-white border-opacity-10 bg-[#121212] rounded-3xl text-white">
       <div className="size-48">
+        {/*}
         <img
           src="/avatar.png"
+          alt="Júlio Dev"
+          className="rounded-full object-cover w-full h-full"
+        /> {*/}
+        <img
+          src=""
           alt="Júlio Dev"
           className="rounded-full object-cover w-full h-full"
         />
@@ -33,7 +39,7 @@ export default function UserCard() {
               <Icon />
             </button>
           ))}
-        </div>        
+        </div>
 
         <div className="flex flex-col gap-3 w-full h-[172px]">
           <div className="w-full flex flex-col items-center gap-3">
